@@ -1,16 +1,35 @@
-# tutor_finder_app
+## TutorFinder Mobile - Quick Start
 
-A new Flutter project.
+### Prerequisites
 
-## Getting Started
+- Flutter SDK installed
+- iOS: Xcode + CocoaPods
+- Backend API running locally at `http://localhost:8000` (Django)
+- For Backend clone this repo and follow instructions: https://github.com/mdhazar/DjangoProject
 
-This project is a starting point for a Flutter application.
+### Configure API URL
 
-A few resources to get you started if this is your first Flutter project:
+The app picks host automatically:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- iOS simulator: `http://localhost:8000/api`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If your backend runs elsewhere, update `lib/config/api.dart` → `apiBaseUrl()`
+
+### Install dependencies
+
+```bash
+flutter pub get
+```
+
+### Run (iOS Simulator)
+
+```bash
+open ios/Runner.xcworkspace
+# In Xcode, select a simulator and run, or use:
+flutter run -d ios
+```
+
+### Demo Accounts
+
+- Student: `student1` / `DemoStudent!123`
+- Tutor: `tutor1` / `DemoTutor!123`
