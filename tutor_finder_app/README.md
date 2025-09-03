@@ -5,7 +5,7 @@
 - Flutter SDK installed
 - iOS: Xcode + CocoaPods
 - Backend API running locally at `http://localhost:8000` (Django)
-- For Backend clone this repo and follow instructions: https://github.com/mdhazar/DjangoProject
+- For Backend, clone this repo and follow instructions: https://github.com/mdhazar/DjangoProject
 
 ### Configure API URL
 
