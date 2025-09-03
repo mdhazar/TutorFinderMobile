@@ -27,6 +27,7 @@ flutter pub get
 open ios/Runner.xcworkspace
 # In Xcode, select a simulator and run, or use:
 flutter run -d ios
+Tested on ios 18.6 iphone 16 pro
 ```
 
 ### Demo Accounts
